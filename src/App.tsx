@@ -19,7 +19,6 @@ export const App = () => {
         <div className="container">
           <div className="navbar-brand">
             <Link to="/" className={cn('navbar-item', { 'is-active': isHome })}>
-              {/* <Link to="/" className={`navbar-item ${isHome ? 'is-active' : ''}`}> */}
               Home
             </Link>
 
